@@ -4,10 +4,10 @@ import os
 for i in range(100):
       humidity=random.randint(1, 100)
       temp=random.randint(1, 100)
-if(humidity>=50 or temp>=50 ):{
+      print (temp+humidity)
+      if(humidity>=50 or temp>=50 ):{
             print("high")
 }
-else:
-  {
-      print("low")
+      else:{
+        print("low")
   }
